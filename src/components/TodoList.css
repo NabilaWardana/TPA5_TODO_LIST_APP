@@ -1,0 +1,102 @@
+.todo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+  }
+
+.todo-title{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 50px 0;
+}
+
+#input-add {
+    width: 22vw;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+
+.add-button{
+    margin: 0 0 0 10px;
+    padding: 10px;
+    border: 1px solid #2F58CD;
+    color: white;
+    background-color: #2F58CD;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.add-todo{
+    display: flex;
+    justify-content: space-between; 
+}
+
+.filter-button {
+    margin: 30px 0 10px 0;
+    display: flex;
+    gap: 20px;
+}
+
+  .filter-button button {
+    font-weight: bold;
+    color: white;
+    padding: 5px 10px;
+    background-color: rgba(128, 128, 128, 0.668);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+  
+  .filter-button button:hover {
+    background-color: #e0e0e0;
+}
+  
+  .filter-button button:focus {
+    outline: none;
+    background-color: rgba(0, 128, 0, 0.661);
+    box-shadow: 0 0 0 2px green; /* Contoh efek focus */
+}
+  
+  
+
+.list-todo{
+    display: flex;
+    
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 20px;
+}
+.left{
+    width: 20vw;
+}
+.left input[type="checkbox"] {
+    transform: scale(1.5); /* Mengubah ukuran checkbox */
+  }
+  
+.left label{
+    margin: 0 20px;
+}
+.left label {
+    text-decoration: none;
+  }
+  
+  .left input[type="checkbox"]:checked + label {
+    text-decoration: line-through;
+  }
+  
+.fas{
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+#edit-icon:hover{
+    color: #379237;
+}
+
+#delete-icon:hover{
+    color: red;
+}
+
