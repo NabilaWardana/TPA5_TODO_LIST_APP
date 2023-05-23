@@ -62,7 +62,7 @@
 
 .list-todo{
     display: flex;
-    
+    margin: 8px 0 ;
     justify-content: space-between;
     padding: 10px;
     border: 1px solid #ccc;
@@ -81,13 +81,14 @@
 }
 .left label {
     text-decoration: none;
-  }
+}
   
-  .left input[type="checkbox"]:checked + label {
+.left input[type="checkbox"]:checked + label {
     text-decoration: line-through;
-  }
+}
   
 .fas{
+    color: rgb(97, 97, 97);
     margin: 0 10px;
     cursor: pointer;
 }
