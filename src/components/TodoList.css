@@ -26,6 +26,7 @@
     background-color: #2F58CD;
     border-radius: 4px;
     font-size: 16px;
+    cursor: pointer;
 }
 .add-todo{
     display: flex;
@@ -99,5 +100,22 @@
 
 #delete-icon:hover{
     color: red;
+}
+
+.edit-input{
+    width: 20vw;
+    margin: 0 10px 0 0;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.save-button{
+    padding: 5px;
+    border: none;
+    background-color: green;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
