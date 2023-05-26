@@ -119,3 +119,25 @@
     cursor: pointer;
 }
 
+@media (max-width: 992px) {
+    #input-add {
+        width: 30vw;
+      }
+    
+    .left{
+        width: 30vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .todo-title{
+        font-size: x-large;
+    }
+    #input-add {
+        width: 40vw;
+      }
+    
+    .left{
+        width: 40vw;
+    }
+}
